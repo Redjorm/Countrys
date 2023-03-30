@@ -69,7 +69,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: .5rem;
-    max-width: 310px;
+    width: 280px;
     height: 500px;
     background-color: rgba(124, 124, 124, 0.623);
     color: white;
@@ -103,14 +103,40 @@ body {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 320px) {
     .card__country {
-        max-width: 410px;
+        width: 310px;
     }
 
 
     .card__img {
-        width: 300px;
+        width: 310px;
+    }
+}
+
+
+@media (min-width: 425px) {
+    .card__country {
+        width: 415px;
+        height: 560px;
+    }
+
+
+    .card__img {
+        width: 400px;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .card__country {
+        width: 580px;
+        height: 540px;
+    }
+
+
+    .card__img {
+        width: 400px;
     }
 }
 
